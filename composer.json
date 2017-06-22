@@ -1,0 +1,20 @@
+{
+  "name": "basebuilder/silex-memcache-provider",
+  "type": "library",
+  "description": "A silex serviceprovider that adds memcache",
+  "authors": [
+    {
+      "name": "Basebuilder development team",
+      "email": "development@basebuilder.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Basebuilder\\MemcacheProvider\\": "src/"
+    }
+  },
+  "require": {
+    "php"          : "~5.5|~7.0",
+    "silex/silex"  : "1.*"
+  }
+}
